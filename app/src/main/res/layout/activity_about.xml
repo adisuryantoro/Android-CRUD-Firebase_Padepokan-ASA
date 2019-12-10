@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:layout_width="@dimen/horizontal_margin_onehundred_forty"
+        android:layout_height="@dimen/vertical_margin_onehundred_forty"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:text="@string/string_padepokan_asa"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize_twenty_four" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:text="@string/string_version"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize_sixteen" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/horizontal_margin_onehundred_forty"
+        android:layout_height="@dimen/vertical_margin_onehundred_forty"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_eighty"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_adi_suryantoro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/vertical_margin_sixteen"
+        android:text="@string/string_name_adi_suryantoro"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize_sixteen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/textsize_twenty"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/horizontal_margin_sixteen"
+        android:paddingRight="@dimen/horizontal_margin_sixteen">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_margin_sixteen"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_forty"
+                android:layout_height="@dimen/margin_forty"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@drawable/logo_instagram" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="@dimen/vertical_margin_eight"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/string_instagram_adi_suryantoro"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/textsize_sixteen" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_margin_sixteen"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/margin_forty"
+                android:layout_height="@dimen/margin_forty"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:src="@drawable/logo_github" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginLeft="@dimen/vertical_margin_eight"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/string_github_adisuryantoro"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/textsize_sixteen" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_eighty"
+        android:text="@string/string_workshop_date"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize_twenty" />
+
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/vertical_margin_eight"
+        android:clickable="true"
+        android:elevation="@dimen/margin_four"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/margin_four">
+
+        <LinearLayout
+            android:id="@+id/ll_item_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/vertical_margin_eight">
+
+            <TextView
+                android:id="@+id/tv_item_main_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="@string/string_isempty"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/textsize_fourteen"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <TextView
+                android:id="@+id/tv_item_main_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="top|start"
+                android:gravity="center_vertical"
+                android:maxLines="6"
+                android:minLines="2"
+                android:text="@string/string_isempty"
+                android:textSize="@dimen/textsize_fourteen"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <TextView
+                android:id="@+id/tv_item_main_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="top|start"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:text="@string/string_time"
+                android:textSize="@dimen/textsize_teen"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
