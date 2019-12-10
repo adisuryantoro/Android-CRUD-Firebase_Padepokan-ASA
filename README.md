@@ -1,4 +1,6 @@
 # Android-CRUD-Firebase-Padepokan-ASA
+###
+##### Android-CRUD-Firebase-Padepokan-ASA
 
 ## Tech Stack
 * [Kotlin](https://kotlinlang.org/docs/reference/android-overview.html)
@@ -8,11 +10,12 @@
 * [Firebase Authentication](https://firebase.google.com/docs/auth)
 * [Firebase Realtime Database](https://firebase.google.com/docs/database)
 
-### NB
+### how to use
 * [Add Firebase](https://firebase.google.com/docs/android/setup)
+* Copy google-services.json to directory app
 
 ## Final
-### HMPS-SI UNISBANK SEMARANG
+### Android-CRUD-Firebase-Padepokan-ASA
 ![App Modul](https://github.com/adisuryantoro/Android-HMPS-SI-UNISBANK-2019/blob/master/gifs/padepokanasa.gif)
 ##
 
