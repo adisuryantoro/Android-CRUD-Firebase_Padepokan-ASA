@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.firebase.ui.auth.AuthUI
-import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import id.seedgrow.noteszone.AboutActivity
 import id.seedgrow.noteszone.LoginActivity

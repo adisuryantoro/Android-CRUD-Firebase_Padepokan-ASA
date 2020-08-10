@@ -7,6 +7,7 @@ import android.view.Window
 import android.view.WindowManager
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -42,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
         configureGoogleSignIn()
         setupUI()
         firebaseAuth = FirebaseAuth.getInstance()
-        
+
     }
 
     override fun onStart() {
